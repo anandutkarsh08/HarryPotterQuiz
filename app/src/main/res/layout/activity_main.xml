@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/harry"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="32dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="16dp">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 1"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/question1"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra" />
+
+    <EditText
+        android:id="@+id/alanrickman"
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        app:fontFamily="@font/almendra" />
+
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 2"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question2"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/Deathly_Hollows"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Deathly_Hollows"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra" />
+    <CheckBox
+        android:id="@+id/Chamber_Of_Secrects"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Chamber_Of_Secrects"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+    <CheckBox
+        android:id="@+id/Philosophers_Stone"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Philosophers_Stone"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+    <CheckBox
+        android:id="@+id/Prisoner_Of_Askaban"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        android:text="@string/Prisoner_Of_Askaban"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 3"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/question3"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+    <EditText
+        android:id="@+id/dog"
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        app:fontFamily="@font/almendra" />
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 4"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question4"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/ten_sickles"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ten_sickles"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/eight_sickles"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/eight_sickles"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/twelve_sickles"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/twelve_sickles"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/fourteen_sickles"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        android:text="@string/fourteen_sickles"
+        android:textColor="@color/optionTextColor"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 5"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question5"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/feli"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/felix_felicis"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/ver"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veritaserum"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/amo"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/amortentia"
+        android:textColor="@color/optionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <CheckBox
+        android:id="@+id/poly"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        android:text="@string/poly_juice"
+        android:textColor="@color/optionTextColor"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 6"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question6"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <EditText
+        android:id="@+id/daily_prophet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        android:hint="Local Newspaper Of Hogwarts"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 7"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question7"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <EditText
+        android:id="@+id/ravenclaw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        app:fontFamily="@font/almendra" />
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 8"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/question8"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+    <CheckBox
+        android:id="@+id/eight"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eight"
+        android:textColor="@color/optionTextColor"/>
+    <CheckBox
+        android:id="@+id/six"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/six"
+        android:textColor="@color/optionTextColor"/>
+    <CheckBox
+        android:id="@+id/twelve"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twelve"
+        android:textColor="@color/optionTextColor"/>
+
+    <CheckBox
+        android:id="@+id/seven"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        android:text="@string/seven"
+        android:textColor="@color/optionTextColor"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 9"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/question9"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <EditText
+        android:id="@+id/expecto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginBetweenQuestions"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/questionstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question 10"
+        android:textColor="@color/textcolor"
+        app:fontFamily="@font/almendra"/>
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question10"
+        android:textColor="@color/questionTextColor"
+        app:fontFamily="@font/almendra"/>
+
+    <EditText
+        android:id="@+id/jean"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fontFamily="@font/almendra" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:onClick="calculateScore"
+        android:text="@string/submit"
+        android:textColor="@color/submitTextColor"
+        android:textStyle="bold"
+        app:fontFamily="@font/almendra"/>
+
+</LinearLayout>
+</ScrollView>
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

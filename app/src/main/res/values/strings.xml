@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Harry Potter Quiz</string>
+    <string name="question1"> Who plays the character of Snape?</string>
+    <string name="question2"> In which book there is a mention of Nicolas Flamel?</string>
+    <string name="Philosophers_Stone"> Philosopher\'s Stone</string>
+    <string name="Deathly_Hollows"> Deathly Hollows</string>
+    <string name="Chamber_Of_Secrects"> Chamber Of Secrects</string>
+    <string name="Prisoner_Of_Askaban"> Prisoner Of Askaban</string>
+    <string name="question3"> What is Fluffy?
+    </string>
+    <string name="question4"> Harry first took the Knight Bus in The Prisoner of Azkaban.
+        How much does a ticket cost if it includes hot chocolate?</string>
+    <string name="ten_sickles"> 10 sickles</string>
+    <string name="eight_sickles"> 8 sickles</string>
+    <string name="twelve_sickles"> 12 sickles</string>
+    <string name="fourteen_sickles"> 14 sickles</string>
+    <string name="question5"> Which one is a love potion?</string>
+    <string name="poly_juice"> Poly Juice Potion</string>
+    <string name="felix_felicis"> Felix Felicis</string>
+    <string name="amortentia"> Amortentia</string>
+    <string name="veritaserum"> Veritaserum</string>
+    <string name="question6"> Which newspaper does Rita Skeeter work for?</string>
+    <string name="question7"> Which house does Moaning Myrtle belong to?</string>
+    <string name="question8"> How many horcruxes are there?</string>
+    <string name="eight"> 8</string>
+    <string name="six"> 6</string>
+    <string name="twelve"> 12</string>
+    <string name="seven"> 7</string>
+    <string name="question9"> Spell For Demontors?</string>
+    <string name="question10"> What is Hermonie\'s middle name?</string>
+    <string name="submit"> Submit</string>
+</resources>

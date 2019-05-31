@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E2723</color>
+    <color name="colorPrimaryDark">#4E342E</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="questionTextColor">#3E2723</color>
+    <color name = "submitTextColor">#D50000</color>
+    <color name="optionTextColor">#1B5E20</color>
+    <color name = "textcolor">#3E2723</color>
+</resources>
